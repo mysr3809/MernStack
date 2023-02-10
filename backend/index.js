@@ -6,8 +6,8 @@ import ReviewRoute from "./routes/ReviewRoute.js";
 const app = express();
 
 const port = 8080;
-// const conn_str =
-//   "mongodb+srv://bmTravel:bmTravel.@cluster0.inmyqrz.mongodb.net/?retryWrites=true&w=majority";
+const conn_str =
+  "mongodb+srv://bmTravel:bmTravel.@cluster0.inmyqrz.mongodb.net/travelDb";
 mongoose.connect(
   conn_str,
   {
